@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@lebogo/eventsystem": "github:OnuGame/eventsystem",
+    "ws": "^8.12.0"
+  },
+  "name": "redistribute-server",
+  "version": "1.0.0",
+  "description": "A websocket server using the https://github.com/OnuGame/eventsystem protocol for redistributing all incoming events to all clients connected to a room.",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/ws": "^8.5.4",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Websockets"
+  ],
+  "author": "LeBogo",
+  "license": "CC BY-NC"
+}
